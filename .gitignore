@@ -1,0 +1,46 @@
+# Bỏ file thực thi trên Linux và Windows
+*.exe
+*.out
+*.app
+
+# File object và thư viện tạm
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# File debug, core dump
+*.d
+*.gch
+*.pch
+*.core
+*.stackdump
+
+# Các thư mục thường dùng để build
+/build/
+/bin/
+/debug/
+/release/
+/dist/
+
+# Makefile, CMake generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VSCode
+.vscode/
+
+# CLion hoặc JetBrains IDE
+.idea/
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Log file
+*.log
